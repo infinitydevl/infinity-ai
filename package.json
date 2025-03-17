@@ -1,0 +1,17 @@
+{
+    "name": "discord-user-account",
+    "version": "1.0.0",
+    "description": "Script para automação de conta de usuário no Discord que responde com a IA do Gemini.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "@google/generative-ai": "^0.24.0",
+        "axios": "^1.8.3",
+        "discord.js-selfbot-v13": "^3.6.1",
+        "dotenv": "^16.4.7"
+    },
+    "author": "",
+    "license": "MIT"
+}
